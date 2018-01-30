@@ -55,9 +55,10 @@ public class ProgramDriver {
 		
 	}
 	
+	
+	//Tested against online longitude/latitude distance calculator https://www.nhc.noaa.gov/gccalc.shtml
 	public static double distanceCalculator(double cLat,double cLong, double dLat, double dLong)
 	{
-		
 		//cLat & cLong are the customers co-ordinates in radians
 		//dLat & dLong are the Dublin office co-ordinates in radians
 		
